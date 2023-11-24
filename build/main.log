@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.15)  23 NOV 2023 14:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.15)  24 NOV 2023 10:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -404,26 +404,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Affine_Radiation.pdf, id=315, 578.16pt x 433.62pt>
 File: Affine_Radiation.pdf Graphic file (type pdf)
 <use Affine_Radiation.pdf>
-Package pdftex.def Info: Affine_Radiation.pdf  used on input line 484.
+Package pdftex.def Info: Affine_Radiation.pdf  used on input line 486.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 <Affine_Matter.pdf, id=318, 578.16pt x 433.62pt>
 File: Affine_Matter.pdf Graphic file (type pdf)
 <use Affine_Matter.pdf>
-Package pdftex.def Info: Affine_Matter.pdf  used on input line 503.
+Package pdftex.def Info: Affine_Matter.pdf  used on input line 505.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
  [11]
 <Affine_Expansion.pdf, id=337, 722.7pt x 433.62pt>
 File: Affine_Expansion.pdf Graphic file (type pdf)
 <use Affine_Expansion.pdf>
-Package pdftex.def Info: Affine_Expansion.pdf  used on input line 532.
+Package pdftex.def Info: Affine_Expansion.pdf  used on input line 534.
 (pdftex.def)             Requested size: 361.3491pt x 216.80946pt.
 
-Overfull \hbox (16.3491pt too wide) in paragraph at lines 532--533
+Overfull \hbox (16.3491pt too wide) in paragraph at lines 534--535
 [][] 
  []
 
 [12 <./Affine_Radiation.pdf>] [13 <./Affine_Matter.pdf>] [14 <./Affine_Expansion.pdf>] [15] [16]
-Overfull \hbox (119.77043pt too wide) detected at line 749
+Overfull \hbox (119.77043pt too wide) detected at line 751
 []
  []
 
@@ -453,7 +453,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  70i,16n,85p,524b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on build/main.pdf (23 pages, 361093 bytes).
+Output written on build/main.pdf (23 pages, 361459 bytes).
 PDF statistics:
  719 PDF objects out of 1000 (max. 8388607)
  526 compressed objects within 6 object streams
