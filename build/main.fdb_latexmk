@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex build/main"] 1700816847 "build/main.aux" "build/main.bbl" "build/main" 1700816850
+["bibtex build/main"] 1701194777 "build/main.aux" "build/main.bbl" "build/main" 1701195376
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "References.bib" 1700741334 26054 19028c827bf371771b227a7003b26113 ""
-  "build/main.aux" 1700816849 10509 3d10040f2e53e463edfce7f6fe805ae3 "pdflatex"
+  "References.bib" 1701194540 26285 ef4d88600b751e54d0d5b20493c387f4 ""
+  "build/main.aux" 1701195376 9907 be8776a03b170388939f1fc57e7df993 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
-["pdflatex"] 1700816848 "/Users/joseignacioperdiguerogarate/Documents/GitHub/Torsion_Effects_Polynomial_Affine_Gravity/main.tex" "build/main.pdf" "main" 1700816850
-  "/Users/joseignacioperdiguerogarate/Documents/GitHub/Torsion_Effects_Polynomial_Affine_Gravity/main.tex" 1700816844 59016 c95434c65bdac82c58aa5763b1d7b7d3 ""
+["pdflatex"] 1701195375 "/Users/joseignacioperdiguerogarate/Documents/GitHub/Torsion_Effects_Polynomial_Affine_Gravity/main.tex" "build/main.pdf" "main" 1701195376
+  "/Users/joseignacioperdiguerogarate/Documents/GitHub/Torsion_Effects_Polynomial_Affine_Gravity/main.tex" 1701195375 43579 3254be928850e347b3807bfd570d5a64 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -114,14 +114,12 @@
   "Affine_Expansion.pdf" 1700741334 20576 1607b1677f6d34f8385e05e1a91f100e ""
   "Affine_Matter.pdf" 1700741334 21166 0e37522e69742899999a0ad26520bf85 ""
   "Affine_Radiation.pdf" 1700746353 21499 28e45e2360f44a90a93e9a4b2d59b785 ""
-  "build/main.aux" 1700816849 10509 3d10040f2e53e463edfce7f6fe805ae3 "pdflatex"
-  "build/main.bbl" 1700816848 11261 c9fbb67c294d88ecf800e1d3d00d7433 "bibtex build/main"
-  "build/main.out" 1700816849 2785 368a14c597a11557e890da796e4bb855 "pdflatex"
-  "build/main.toc" 1700816849 1419 f7ffaf618c9d2ebfaaba734046a93a23 "pdflatex"
-  "main.tex" 1700816844 59016 c95434c65bdac82c58aa5763b1d7b7d3 ""
+  "build/main.aux" 1701195376 9907 be8776a03b170388939f1fc57e7df993 "pdflatex"
+  "build/main.bbl" 1701194778 11419 468e381034f60860e6b58b448bae9f0d "bibtex build/main"
+  "build/main.out" 1701195376 1892 dc6b6a295426d56efb02f9f7dc4dc214 "pdflatex"
+  "main.tex" 1701195375 43579 3254be928850e347b3807bfd570d5a64 ""
   (generated)
   "build/main.aux"
   "build/main.log"
   "build/main.out"
   "build/main.pdf"
-  "build/main.toc"
