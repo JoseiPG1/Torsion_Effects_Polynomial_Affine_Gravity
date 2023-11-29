@@ -188,17 +188,80 @@ of Quantum Field Theory view, for the reason that the superficial degree of dive
 
 Finally, in the torsion-free sector it is possible to recover all Einstein's vacuum solutions. Even more, it is possible
 to coupled a scalar field using the \textit{dimensional analysis} technique with the torsion tensor and the volume form,
-while the potential energy re-scale the volume element. Just like before, we can recover general relativity and the Klein-
-Gordon field equations, see Ref.[XX]. 
+while the potential energy re-scale the volume element. From which, there is a subspace of solutions that allow us to 
+recover Einsteins's field equations coupled with a scalar field, see Ref.[Paper_Inflacion]
 
-The field equations are obtained by varying the action with respect to each irreducible field using Kijowkski's 
+Since we are interested in the study of the cosmology, we want to impose the symmetries of the cosmological principle in 
+our fundamental field $\hat{\Gamma}$ and in its irreducible fields. In order to build up the ansatz we compute the Lie
+derivative of each irreducible field along the Killing vectors $\xi_i$ that generates the symmetries of homogeneity 
+(translations) $\mathcal{P}_i$ and isotropy (rotations) $\mathcal{J}_i$. An explicit computation of the Lie derivative
+can be found in Ref.\cite{Castillo-Felisola17}. In what follows we shall show only the results.
+
+The computation of the Lie derivative of $\Gamma$ along the Killing vectors, determined its coefficients: 
+\begin{align}
+    \label{G_ansatz}
+    \ctG{t}{t}{t} & =f(t), & \ctG{i}{t}{j} & = g(t) S_{i j}, \\
+    \ctG{t}{i}{j} &= h(t), \delta^{i}_{j} & \ctG{i}{j}{k} & = \ctg{i}{j}{k},
+\end{align}
+where $S_{ij}$ is the three-dimensional rank two symmetric tensor defined as follow
+\begin{equation}
+    S_{i j}=\left(\begin{array}{ccc}
+    \frac{1}{1-\kappa r^2} & 0 & 0 \\
+    0 & r^2 & 0 \\
+    0 & 0 & r^2 \sin ^2 \theta
+    \end{array}\right),
+\end{equation}
+and $\gamma$ is the symmetric connection compatible with desired symmetries written as
+\begin{align}
+    \ctg{r}{r}{r} & = \frac{\kappa r}{1 - \kappa r^2}, & \ctg{\theta}{r}{\theta} & = \kappa r^3 - r, &
+    \ctg{\varphi}{r}{\varphi} & = \left(\kappa r^3 - r\right)\sin^2\theta, & \ctg{r}{\theta}{\theta} & = \frac{1}{r}, \\
+    \ctg{\varphi}{\theta}{\varphi} & = -\cos\theta\sin\theta, & \ctg{r}{\varphi}{\varphi} & = \frac{1}{r}, & 
+    \ctg{\theta}{\varphi}{\varphi} & = \frac{\cos \theta}{\sin \theta}.
+\end{align}
+Additionally, the affine function $f(t)$ can be set equal to zero, under a parametrization of the time coordinate, for more information
+on this type of transformation, refer to Ref. \cite{Castillo_Felisola_2022_EPJC}. Therefore, there are only two non trivial functions
+to define completely the symmetric part of the connection.
+
+Following a similar procedure for the torsion tensor, is possible to determined the ansatz compatible with 
+the required symmetries. For its traceless part $\mathcal{B}$, the non-vanishing components are
+\begin{equation}
+\label{B_ansatz}
+\begin{aligned}
+    \B{\theta}{r}{\varphi} & = \psi (t) r^2\sin\theta \sqrt{1 - \kappa r^2}, &
+    \B{r}{\theta}{\varphi} & =\frac{\psi (t) \sin \theta}{\sqrt{1 - \kappa r^2}}, & 
+    \B{r}{\varphi}{\theta} & =\frac{\psi(t)}{ \sqrt{1-\kappa r^{2}} \sin \theta},
+\end{aligned}
+\end{equation}
+while the non-trivial components of its vectorial part $\mathcal{A}$ is
+\begin{equation}
+    \label{A_ansatz}
+    \A{t} = \eta(t).
+\end{equation}
+
+Using the cosmological ansatz presented in eq. \eqref{G_ansatz}, the Ricci tensor is 
+defined as follow
+\begin{align}
+    \label{Ricci_tensor}
+    \mathcal{R}_{tt} & = \dot{h} + h^2 & \mathcal{R}_{rr} & = \frac{\dot{g} + gh + 2\kappa}{1 - \kappa r^2},
+\end{align}
+moreover, the Poplawski's metric is computed using eqs. \eqref{B_ansatz} and \eqref{A_ansatz}
+\begin{align}
+    \label{Pop_tensor}
+    \mathcal{P}_{tt} & = \eta^2 & \mathcal{P}_{rr} & = -\frac{2\psi^2}{1 - \kappa r^2}.
+\end{align}
+In order to use the Ricci tensor $\mathcal{R}_{\mu\nu}$ or the Poplawski $\mathcal{P}_{\mu\nu}$ as an
+emergent metric tensor, is necessary that the tensor is well defined, meaning, it can be invertible. If the
+tensor are well behaved, then the factors $\left(\dot{g} + gh + 2\kappa\right)$ or $\left(-2\psi^2\right)$ play an analogue role to 
+the scale factor $a^2(t)$.
+
+Finally, the field equations are obtained by varying the action with respect to each irreducible field using Kijowkski's 
 formalism, see Ref. \cite{KJ_Formalism}, which we also reviewed in Ref. \cite{Castillo_Felisola_2020}. The complete 
 set of the field equation for each irreducible field can be found in Ref.\cite{Castillo-Felisola_2023}.
 
 \section{Cosmological solutions}
 \label{sec:solutions}
 
-Using the ansatz founded in eqs. \eqref{G_ansatz}, \eqref{B_ansatz} and \eqref{A_ansatz} the field equation are
+Using the ansatz found in eqs. \eqref{G_ansatz}, \eqref{B_ansatz} and \eqref{A_ansatz} the field equation are
 \begin{dmath}
     \label{Feq_1}
     \left(B_3\left(\dot{g} + gh + 2\kappa\right) - 2B_4\left(\dot{g} - gh\right) + 2D_6\eta g - 2F_3\psi^2\right)\psi = 0,
@@ -221,13 +284,13 @@ Using the ansatz founded in eqs. \eqref{G_ansatz}, \eqref{B_ansatz} and \eqref{A
     B_3\left(\dot{g} + gh + 2\kappa\right)\eta - 2B_4\left(\dot{g} - gh\right)\eta + C_1\left(2\kappa h + 4gh^2 + 2g\dot{h} - \ddot{g}\right) +
     6h\psi^2\left(2D_2 - D_1 - D_3\right) + D_6 \eta^2 g - 6F_3\eta\psi^2 = 0
 \end{dmath}
-where $\mathcal{A}$ and $\mathcal{B}$ have only one equation, eq.\eqref{Feq_1} and eq.\eqref{Feq_5} respectively, 
+where $\mathcal{A}$ and $\mathcal{B}$ have only one equation, eq. \eqref{Feq_1} and eq. \eqref{Feq_5} respectively, 
 whereas there are three field equations for $\Gamma$, which are eqs. \eqref{Feq_2} to \eqref{Feq_4}.  Notice, we have four unknown functions 
 of time $g(t)$, $h(t)$, $\psi(t)$ and $\eta(t)$ while there are five differential equations, meaning the system is overdetermined.
 
-Although the system of differential equations seems to be quite complicated, it can actually be solved analytically without any assumption. To see this,
-we develop a \textit{logical scheme} the find its solutions. First, notice the structure of eqs. \eqref{Feq_1} and \eqref{Feq_2}, which can be 
-written in a more subtle form
+Nonetheless, we shall show that, it can actually be solved analytically without any assumption. To see this,
+we develop a \textit{logical scheme} that allow us to seek (systematically) for solutions. First, notice eqs. \eqref{Feq_1} 
+and \eqref{Feq_2} are of the form
 \begin{dmath}
     \label{Feq_1_1}
     \mathcal{F}(g, \dot{g}, h,\psi,\eta)\psi = 0,
@@ -236,16 +299,19 @@ written in a more subtle form
     \label{Feq_2_2}
     \mathcal{G}(h,\psi, \dot{\psi}, \eta)g = 0,
 \end{dmath}
-where $\mathcal{F}(g,\dot{g},h,\psi,\eta) = B_3\left(\dot{g} + gh + 2\kappa\right) - 2B_4\left(\dot{g} - gh\right) + 2D_6\eta g - 2F_3\psi^2$ and 
-$\mathcal{G}(h,\psi, \dot{\psi}, \eta) = B_3\eta\psi -2B_4\eta\psi + C_1\left(\dot{\psi} - 2h\psi\right)$. Thus, from eqs. \eqref{Feq_1_1} and \eqref{Feq_2_2}
-its possible to distinguish four different branches:
+where
+\begin{align}
+\mathcal{F}(g,\dot{g},h,\psi,\eta)    & = B_3\left(\dot{g} + gh + 2\kappa\right) - 2B_4\left(\dot{g} - gh\right) + 2D_6\eta g - 2F_3\psi^2,\\
+\mathcal{G}(h,\psi, \dot{\psi}, \eta) & = B_3\eta\psi -2B_4\eta\psi + C_1\left(\dot{\psi} - 2h\psi\right).
+\end{align}
+Thus, from eqs. \eqref{Feq_1_1} and \eqref{Feq_2_2} its possible to distinguish four different branches:
 \begin{align}
     \mathcal{F}(g,h,\psi,\eta) & = 0 & & \wedge & \mathcal{G}(h,\psi,\eta) & = 0,  \label{branch_1}\\
     \mathcal{F}(g,h,\psi,\eta) & = 0 & & \wedge & g & = 0, \label{branch_2}\\
     \mathcal{G}(h,\psi,\eta)  & = 0  & & \wedge & \psi & = 0, \label{branch_3}\\
     \psi & = 0 & & \wedge & g & = 0. \label{branch_4}
 \end{align}
-Obviously, the most interesting branch its eq. \eqref{branch_1}, which is the most general case, and the simplest branch will be 
+In terms of the richness of the solutions, the most interesting branch its eq. \eqref{branch_1}, which is the most general case, and the simplest branch will be 
 eq.\eqref{branch_4}.
 
 \subsection{First branch}
@@ -561,113 +627,6 @@ We are specially thankful to the developers of the software SageMath \cite{sagem
 with the developers of the Cadabra software \cite{peeters2018introducing,Peeters2018,Peeters_2007}, both softwares were used extensively in our calculations.
 Specifically, for computing the Lie derivative of the irreducible fields of the affine connection along the Killing vectors, and the variation
 of each term in the Polynomial Affine Gravity's action, respectively.
-
-\appendix
-
-\section{Appendix I: Cosmological ansatz}
-\label{sec:Appendix_I}
-
-The symmetries of the universe at large scale are given by the cosmological principle: isotropy and homogeneity, those symmetries can explicitly by 
-written as Killing vectors
-\begin{align}
-    \label{killing_vectors}
-    J_1 & = (0 , 0, -\cos \varphi, \cot\theta\sin\varphi) \\
-    J_2 & = (0 , 0, \sin \varphi, \cot\theta\cos\varphi) \\
-    J_3 & = (0 , 0, 0, 1) \\
-    P_1 & = \sqrt{1 - \kappa r^2}\left(0 , \cos\varphi\sin\theta, \frac{\cos\varphi\cos\theta}{r}, -\frac{\sin\varphi}{r\sin\theta}\right) \\
-    P_2 & = \sqrt{1 - \kappa r^2}\left(0 , \sin\varphi\sin\theta, \frac{\sin\varphi\cos\theta}{r}, \frac{\cos\varphi}{r\sin\theta}\right) \\
-    P_3 & = \sqrt{1 - \kappa r^2}\left(0 , \cos\theta, -\frac{\sin\theta}{r}, 0\right) 
-\end{align}
-where $J_i$ are the generators of the rotation symmetry (isotropy) and $P_i$ are the generators of the translational symmetry (homogeneity). In order to 
-build an ansatz compatible with the above symmetries, we use the Lie derivative along those generators.
-
-The lie derivative of the connection $\Gamma$ its given by
-\begin{equation}
-    \label{Lie_aff_connection}
-    \mathcal{L}_{\xi}\ctG{\beta}{\alpha}{\gamma} = \xi^{\mu}\partial_{\mu}\ctG{\beta}{\alpha}{\gamma} - \ctG{\beta}{\mu}{\gamma}\partial_{\mu}\xi^{\alpha}
-    + \ctG{\mu}{\alpha}{\gamma}\partial_{\beta}\xi^{\mu} + \ctG{\beta}{\alpha}{\mu}\partial_{\gamma}\xi^{\mu} + \frac{\partial^2\xi^{\alpha}}{\partial x^{\beta}\partial x^{\gamma}},
-\end{equation}
-where the last term appears because the affine connection under a coordinate transformations has a non homogeneous term.  The computations of the Lie 
-derivative eq.\eqref{Lie_aff_connection} along the Killing vectors in eq. \eqref{killing_vectors} leads to
-\begin{align}
-    \label{G_ansatz}
-    \ctG{t}{t}{t} & =f(t) & \ctG{i}{t}{j} & = g(t) S_{i j} \\
-    \ctG{t}{i}{j} &= h(t) \delta^{i}_{j} & \ctG{i}{j}{k} & = \ctg{i}{j}{k},
-\end{align}
-where $S_{ij}$ is the three-dimensional rank two symmetric tensor defined as follow
-\begin{equation}
-    S_{i j}=\left(\begin{array}{ccc}
-    \frac{1}{1-\kappa r^2} & 0 & 0 \\
-    0 & r^2 & 0 \\
-    0 & 0 & r^2 \sin ^2 \theta
-    \end{array}\right),
-\end{equation}
-and $\gamma$ is the symmetric connection compatible with desired symmetries written as
-\begin{align}
-    \ctg{r}{r}{r} & = \frac{\kappa r}{1 - \kappa r^2} & \ctg{\theta}{r}{\theta} & = \kappa r^3 - r &
-    \ctg{\varphi}{r}{\varphi} & = \left(\kappa r^3 - r\right)\sin^2\theta & \ctg{r}{\theta}{\theta} & = \frac{1}{r} \\
-    \ctg{\varphi}{\theta}{\varphi} & = -\cos\theta\sin\theta & \ctg{r}{\varphi}{\varphi} & = \frac{1}{r} & 
-    \ctg{\theta}{\varphi}{\varphi} & = \frac{\cos \theta}{\sin \theta}.
-\end{align}
-
-Interestingly, the affine function $f(t)$ can be set equal to zero, under a reparametrisation of the time coordinate, for more information
-on this type of transformation, please refer to Ref. \cite{Castillo_Felisola_2022_EPJC}. Therefore, there are only two non trivial functions
-to define completely the symmetric part of the connection.
-
-The Lie derivative for the $\mathcal{B}$ field is
-\begin{dmath}
-    \label{Lie_B}
-    \mathcal{L}_{\xi}\B{\beta}{\alpha}{\gamma} = \xi^{\mu}\partial_{\mu}\B{\beta}{\alpha}{\gamma} - \B{\beta}{\mu}{\gamma}\partial_{\mu}\xi^{\alpha}
-    + \B{\mu}{\alpha}{\gamma}\partial_{\beta}\xi^{\mu} + \B{\beta}{\alpha}{\mu}\partial_{\gamma}\xi^{\mu},
-\end{dmath}
-performing the above calculation of eq.\eqref{Lie_B} along the Killing vectors \eqref{killing_vectors} give the number of independent 
-components of the tensor field
-\begin{equation}
-\label{B_ansatz}
-\begin{aligned}
-    \B{\theta}{r}{\varphi} & = \psi (t) r^2\sin\theta \sqrt{1 - \kappa r^2} &
-    \B{r}{\theta}{\varphi} & =\frac{\psi (t) \sin \theta}{\sqrt{1 - \kappa r^2}} & 
-    \B{r}{\varphi}{\theta} & =\frac{\psi(t)}{ \sqrt{1-\kappa r^{2}} \sin \theta}.
-\end{aligned}
-\end{equation}
-Notice the trace-less part of the torsion tensor has only one time-dependent function to defined the tensor completly.
-
-The last part of the ansatz, its given by $\mathcal{A}$ field. Its Lie derivative is 
-\begin{dmath}
-    \label{Lie_A}
-    \mathcal{L}_{\xi}\A{\alpha} = \xi^{\mu}\partial_{\mu}{\alpha} + \A{\mu}\partial_{\alpha}\xi^{\mu},
-\end{dmath}
-and the calculation of eq.\eqref{Lie_A} along the Killing vectors in eq.\eqref{killing_vectors} gives 
-\begin{equation}
-    \label{A_ansatz}
-    \A{t} = \eta(t).
-\end{equation}
-There is only one time-dependent function to define completely the vectorial part of the torsion tensor.
-
-To summarize, the complete set of our cosmological ansatz compatible with the symmetries of the cosmological principle are the following
-time dependent functions
-\begin{equation}
-    \begin{aligned}
-        \Gamma & \to \left\{g(t), h(t)\right\} & \mathcal{B} & \to \left\{\psi(t)\right\} & \mathcal{A} & \to \left\{\eta(t)\right\}.
-    \end{aligned}
-\end{equation}
-
-
-\begin{align}
-    \label{Ricci_tensor}
-    \mathcal{R}_{tt} & = \dot{h} + h^2 & \mathcal{R}_{rr} & = \frac{\dot{g} + gh + 2\kappa}{1 - \kappa r^2},
-\end{align}
-where $\mathcal{R}_{\theta\theta}$ and $\mathcal{R}_{\varphi\varphi}$ are proportional to $\mathcal{R}_{rr}$, just like one would expect from a metric tensor. Notice,
-if $\kappa = 0$, then the factor of $\dot{g} + gh$ resembles the scale factor $a^2(t)$ present in FRW cosmology.
-
-under the symmetries described in eqs. eqs.\eqref{B_ansatz} and \eqref{A_ansatz}, Poplwaski's metric components are
-\begin{align}
-    \label{Pop_tensor}
-    \mathcal{P}_{tt} & = \eta^2 & \mathcal{P}_{rr} & = -\frac{2\psi^2}{1 - \kappa r^2},
-\end{align}
-where $\mathcal{P}_{\theta\theta}$ and $\mathcal{P}_{\varphi\varphi}$ are proportional to $\mathcal{P}_{rr}$ just like a metric tensor. Just like before,
-if $\kappa = 0$, then the factor $\psi^2(t)$ plays an analogue roles to the standard scale factor $a^2(t)$. Therefore, in our purely affine model still it is possible to define the notion of distance by two different objects. For more information, on how
-the ansatz was build please refer to Appendix \ref{sec:Appendix_I}.
 
 \bibliographystyle{unsrt}
 \bibliography{References}
