@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.15)  8 DEC 2023 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.15)  8 DEC 2023 20:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -406,12 +406,12 @@ Overfull \hbox (6.86177pt too wide) in paragraph at lines 220--224
 LaTeX Warning: Citation `CastilloCastillo_Felisola_2022_EPJC' on page 10 undefined on input line 485.
 
 [10] [11] [12] (build/main.bbl
-Underfull \hbox (badness 4001) in paragraph at lines 26--31
+Underfull \hbox (badness 4001) in paragraph at lines 21--26
 \OT1/cmr/m/n/10 a-tivit^^?atstheorie.  \OT1/cmr/m/it/10 Sitzungs-berichte der K&ouml;niglich Preussis-chen
  []
 
 [13] [14] [15]
-Underfull \hbox (badness 2547) in paragraph at lines 256--261
+Underfull \hbox (badness 2547) in paragraph at lines 247--252
 []\OT1/cmr/m/n/10 Oscar Castillo-Felisola, Os-car Orel-lana, Jos^^Se Perdiguero, Fran-cisca
  []
 
@@ -426,18 +426,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5CE22A520A8FA7913F6165253CCF313A;1683.
  ) 
 Here is how much of TeX's memory you used:
- 10149 strings out of 478268
- 158255 string characters out of 5846346
- 464126 words of memory out of 5000000
- 28078 multiletter control sequences out of 15000+600000
+ 10147 strings out of 478268
+ 158200 string characters out of 5846346
+ 464079 words of memory out of 5000000
+ 28077 multiletter control sequences out of 15000+600000
  477636 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,16n,85p,358b,463s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on build/main.pdf (17 pages, 283671 bytes).
+Output written on build/main.pdf (17 pages, 283300 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 414 compressed objects within 5 object streams
- 145 named destinations out of 1000 (max. 500000)
+ 471 PDF objects out of 1000 (max. 8388607)
+ 411 compressed objects within 5 object streams
+ 144 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

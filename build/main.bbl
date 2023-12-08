@@ -5,11 +5,6 @@ A.~{Einstein}.
 \newblock {Die Grundlage der allgemeinen Relativit{\"a}tstheorie}.
 \newblock {\em Annalen der Physik}, 354(7):769--822, January 1916.
 
-\bibitem{Einstein_GR_Fundamentals}
-A.~{Einstein}.
-\newblock {Die Grundlage der allgemeinen Relativit{\"a}tstheorie}.
-\newblock {\em Annalen der Physik}, 354(7):769--822, January 1916.
-
 \bibitem{Einstein_GR_Bases}
 Albert {Einstein}.
 \newblock {Zur allgemeinen Relativit{\"a}tstheorie}.
@@ -48,24 +43,24 @@ G.~{Lemaitre}.
 
 \bibitem{Lema_Expansion}
 Georges Lemaitre.
-\newblock {LUnivers en expansion}.
+\newblock {L'Univers en expansion}.
 \newblock {\em Annales de la Socieacute teacute; Scientifique de Bruxelles},
   53:51, January 1933.
 
 \bibitem{Robertson_1}
 H.~P. Robertson.
 \newblock {Kinematics and World-Structure I.}
-\newblock {\em apj}, 82:284, November 1935.
+\newblock {\em The Astrophysical Journal}, 82:284, November 1935.
 
 \bibitem{Robertson_2}
 H.~P. Robertson.
 \newblock {Kinematics and World-Structure II.}
-\newblock {\em apj}, 83:187, April 1936.
+\newblock {\em The Astrophysical Journal}, 83:187, April 1936.
 
 \bibitem{Robertson_3}
 H.~P. Robertson.
 \newblock {Kinematics and World-Structure III.}
-\newblock {\em apj}, 83:257, May 1936.
+\newblock {\em The Astrophysical Journal}, 83:257, May 1936.
 
 \bibitem{Will_2014}
 Clifford~M. Will.
@@ -78,25 +73,25 @@ Clifford~M. Will.
 \newblock Cambridge University Press, 2 edition, 2018.
 
 \bibitem{Abbott_2016}
-Abbott.
+B.~P. Abbott et~al.
 \newblock Gw151226: Observation of gravitational waves from a 22-solar-mass
   binary black hole coalescence.
 \newblock {\em Physical Review Letters}, 116(24), June 2016.
 
 \bibitem{Abbott_2017}
-B.~P. Abbott.
+B.~P. Abbott et~al.
 \newblock Gravitational waves and gamma-rays from a binary neutron star merger:
   Gw170817 and grb 170817a.
 \newblock {\em The Astrophysical Journal}, 848(2):L13, October 2017.
 
 \bibitem{PhysRev.160.1113}
 Bryce~S. DeWitt.
-\newblock Quantum theory of gravity. i. the canonical theory.
+\newblock Quantum theory of gravity i. the canonical theory.
 \newblock {\em Phys. Rev.}, 160:1113--1148, Aug 1967.
 
 \bibitem{PhysRev.162.1195}
 Bryce~S. DeWitt.
-\newblock Quantum theory of gravity. ii. the manifestly covariant theory.
+\newblock Quantum theory of gravity ii. the manifestly covariant theory.
 \newblock {\em Phys. Rev.}, 162:1195--1239, Oct 1967.
 
 \bibitem{PhysRevD.10.401}
@@ -113,7 +108,7 @@ S.~Deser and P.~van Nieuwenhuizen.
 Vera~C. {Rubin} and Jr. {Ford}, W.~Kent.
 \newblock {Rotation of the Andromeda Nebula from a Spectroscopic Survey of
   Emission Regions}.
-\newblock {\em apj}, 159:379, February 1970.
+\newblock {\em The Astrophysical Journal}, 159:379, February 1970.
 
 \bibitem{Rotation_Curve_2}
 Yoshiaki Sofue and Vera Rubin.
@@ -122,11 +117,7 @@ Yoshiaki Sofue and Vera Rubin.
   2001.
 
 \bibitem{Riess_1998}
-Adam~G. Riess, Alexei~V. Filippenko, Peter Challis, Alejandro Clocchiatti, Alan
-  Diercks, Peter~M. Garnavich, Ron~L. Gilliland, Craig~J. Hogan, Saurabh Jha,
-  Robert~P. Kirshner, B.~Leibundgut, M.~M. Phillips, David Reiss, Brian~P.
-  Schmidt, Robert~A. Schommer, R.~Chris Smith, J.~Spyromilio, Christopher
-  Stubbs, Nicholas~B. Suntzeff, and John Tonry.
+Adam~G. Riess and others.
 \newblock Observational evidence from supernovae for an accelerating universe
   and a cosmological constant.
 \newblock {\em The Astronomical Journal}, 116(3):1009–1038, September 1998.
@@ -138,7 +129,7 @@ H.~A. Buchdahl.
   09 1970.
 
 \bibitem{STAROBINSKY198099}
-A.A. Starobinsky.
+A.~A. Starobinsky.
 \newblock A new type of isotropic cosmological models without singularity.
 \newblock {\em Physics Letters B}, 91(1):99--102, 1980.
 
@@ -149,7 +140,7 @@ A.~A. {Starobinskii}.
 \newblock {\em ZhETF Pisma Redaktsiiu}, 30:719--723, December 1979.
 
 \bibitem{Hehl_1995}
-Friedrich~W. Hehl, J.Dermott McCrea, Eckehard~W. Mielke, and Yuval Ne’eman.
+Friedrich~W. Hehl, J.~Dermott McCrea, Eckehard~W. Mielke, and Yuval Ne’eman.
 \newblock Metric-affine gauge theory of gravity: field equations, noether
   identities, world spinors, and breaking of dilation invariance.
 \newblock {\em Physics Reports}, 258(1–2):1–171, July 1995.
@@ -171,13 +162,13 @@ Canan~N. Karahan, Aslı Altaş, and Durmuş~A. Demir.
   2012.
 
 \bibitem{SARDANASHVILY_2011}
-G.~SARDANASHVILY.
+G.~Sardanashvily.
 \newblock Classical gauge gravitation theory.
 \newblock {\em International Journal of Geometric Methods in Modern Physics},
   08(08):1869–1895, December 2011.
 
 \bibitem{OLMO_2011}
-GONZALO~J. OLMO.
+Gonzalo~J. O.
 \newblock Palatini approach to modified gravity: f(r) theories and beyond.
 \newblock {\em International Journal of Modern Physics D}, 20(04):413–462,
   April 2011.
@@ -198,7 +189,7 @@ Nikodem~J. Poplawski.
   2007.
 
 \bibitem{POP_AWSKI_2007}
-NIKODEM~J. POPŁAWSKI.
+Nikodem~J. Poplawski.
 \newblock On the nonsymmetric purely affine gravity.
 \newblock {\em Modern Physics Letters A}, 22(36):2701–2720, November 2007.
 
@@ -293,7 +284,7 @@ Oscar Castillo-Felisola, Bastian Grez, Oscar Orellana, José Perdiguero,
 \bibitem{sagemath}
 {The Sage Developers}.
 \newblock {\em {S}ageMath, the {S}age {M}athematics {S}oftware {S}ystem
-  ({V}ersion x.y.z)}, 2019.
+  ({V}ersion 9.7)}, 2022.
 \newblock {\tt https://www.sagemath.org}.
 
 \bibitem{Gourgoulhon_2015}
