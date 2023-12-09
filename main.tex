@@ -286,10 +286,10 @@ Using the ansatz found in eqs. \eqref{G_ansatz}, \eqref{B_ansatz} and \eqref{A_a
     6h\psi^2\left(2D_2 - D_1 - D_3\right) + D_6 \eta^2 g - 6F_3\eta\psi^2 = 0
 \end{dmath}
 where $\mathcal{A}$ and $\mathcal{B}$ have only one equation, eq. \eqref{Feq_1} and eq. \eqref{Feq_5} respectively, 
-whereas there are three field equations for $\Gamma$, which are eqs. \eqref{Feq_2} to \eqref{Feq_4}.  Notice, we have four unknown functions 
+whereas there are three field equations for $\Gamma$, which are eqs.\eqref{Feq_2} to \eqref{Feq_4}. Notice, we have four unknown functions 
 of time $g(t)$, $h(t)$, $\psi(t)$ and $\eta(t)$ while there are five differential equations, meaning the system is overdetermined.
 
-Nonetheless, we shall show that, it can actually be solved analytically without any assumption. To see this,
+Nonetheless, we shall show that, it can actually be solved analytically without any assumption. For this end,
 we develop a \textit{logical scheme} that allow us to seek (systematically) for solutions. First, notice eqs. \eqref{Feq_1} 
 and \eqref{Feq_2} are of the form
 \begin{dmath}
@@ -307,13 +307,13 @@ where
 \end{align}
 Thus, from eqs. \eqref{Feq_1_1} and \eqref{Feq_2_2} its possible to distinguish four different branches:
 \begin{align}
-    \mathcal{F}(g,h,\psi,\eta) & = 0 & & \wedge & \mathcal{G}(h,\psi,\eta) & = 0,  \label{branch_1}\\
-    \mathcal{F}(g,h,\psi,\eta) & = 0 & & \wedge & g & = 0, \label{branch_2}\\
-    \mathcal{G}(h,\psi,\eta)  & = 0  & & \wedge & \psi & = 0, \label{branch_3}\\
-    \psi & = 0 & & \wedge & g & = 0. \label{branch_4}
+    \textbf{First branch:}  && \mathcal{F}(g,h,\psi,\eta) & = 0 & & \wedge & \mathcal{G}(h,\psi,\eta) & = 0,  \label{branch_1}\\
+    \textbf{Second branch:} && \mathcal{F}(g,h,\psi,\eta) & = 0 & & \wedge & g & = 0, \label{branch_2}\\
+    \textbf{Third branch:}  && \mathcal{G}(h,\psi,\eta)  & = 0  & & \wedge & \psi & = 0, \label{branch_3}\\
+    \textbf{Fourth branch:} && \psi & = 0 & & \wedge & g & = 0. \label{branch_4}
 \end{align}
-In terms of the richness of the solutions, the most interesting branch its eq. \eqref{branch_1}, which is the most general case, and the simplest branch will be 
-eq.\eqref{branch_4}.
+In terms of the richness of the solutions, the most interesting branch is that from eq. \eqref{branch_1},
+which is the most general case, while the simplest is the one characterized by eq. \eqref{branch_4}.
 
 \subsection{First branch}
 \label{sec:first_branch}
@@ -339,10 +339,10 @@ This branch has the most general case, where the field equations are
 \begin{dmath}
     \label{Feq_B1_5}
     B_3\left(\dot{g} + gh + 2\kappa\right)\eta - 2B_4\left(\dot{g} - gh\right)\eta + C_1\left(2\kappa h + 4gh^2 + 2g\dot{h} - \ddot{g}\right) +
-    6h\psi^2\left(2D_2 - D_1 - D_3\right) + D_6 \eta^2 g - 6F_3\eta\psi^2 = 0
+    6h\psi^2\left(2D_2 - D_1 - D_3\right) + D_6 \eta^2 g - 6F_3\eta\psi^2 = 0.
 \end{dmath}
 
-From this, we solve eq.\eqref{Feq_B1_2} to find an expression for $\eta(t)$
+We solve eq.\eqref{Feq_B1_2} to find an expression for $\eta(t)$
 \begin{equation}
     \label{B1_eta}
     \eta(t) = \left(\frac{2h\psi - \dot{\psi}}{\psi}\right)\left(\frac{C_1}{B_3 - 2B_4}\right),
@@ -350,7 +350,7 @@ From this, we solve eq.\eqref{Feq_B1_2} to find an expression for $\eta(t)$
 replacing the above expression for $\eta(t)$ into eq. \eqref{Feq_B1_4}, leads to two sub-branches for the $h(t)$ function, either
 \begin{align}
     \label{B1_h}
-    h(t) & = \frac{\dot{\psi}}{2\psi} & h(t) & = \frac{\dot{\psi}}{\psi}\left(\frac{C_1 D_6}{3B_3^2 - 8B_3B_4 + B_4^2 + 2C_1D_6}\right).
+    h(t) & = \frac{\dot{\psi}}{2\psi} & & \wedge &  h(t) & = \frac{\dot{\psi}}{\psi}\left(\frac{C_1 D_6}{3B_3^2 - 8B_3B_4 + B_4^2 + 2C_1D_6}\right).
 \end{align}
 Using the simplest form of $h(t)$ function, then eq. \eqref{Feq_B1_3} leads to
 \begin{equation}
@@ -364,27 +364,29 @@ which allows to solve $g(t)$ in terms of the $\psi(t)$
 where $g_0$ is an integration constant. The above expression also solves eq. \eqref{Feq_B1_5}. Then, eq. \eqref{Feq_B1_1} becomes 
 an integro-differential equation of first order
 \begin{dmath}
+    \label{psi_integro_diff_equation}
     \dot{\psi}\left(g_0 + \int_1^t \left(\frac{\kappa}{\psi(\tau)} - \psi(\tau) \left(\frac{D_1 - 2D_2 + D_3}{C_1}\right)\right) \mathrm{d}\tau\right)\left(\frac{3B_3 - 2B_4}{2}\right) -
     \psi^2 \frac{\left(B_3 - 2B_4\right)\left(D_1 - 2D_2 + D_3\right) + 2C_1 F_3}{C_1} + \kappa \left(3B_3 - 2B_4\right) = 0.
 \end{dmath}
-The above equation can be solved for the special case $\kappa = 0$, with the variable change $\psi (t) = \dot{\phi}(t)$, then
+The above equation can be solved for the special case $\kappa = 0$, with the variable change $\psi (t) = \dot{\phi}(t)$, 
+then eq. \eqref{psi_integro_diff_equation} turns into a second order differential equation for $\phi(t)$
 \begin{dmath}
     \ddot{\phi}\left(g_0  - \phi\alpha\right)\beta - \dot{\phi}^2 \gamma  = 0,
 \end{dmath}
 where
 \begin{align}
-    \alpha & = \left(\frac{D_1 - 2D_2 + D_3}{C_1}\right) & \beta & = \left(\frac{3B_3 - 2B_4}{2}\right) \\
+    \alpha & = \left(\frac{D_1 - 2D_2 + D_3}{C_1}\right), & \beta & = \left(\frac{3B_3 - 2B_4}{2}\right), \\
     \gamma & = \frac{\left(B_3 - 2B_4\right)\left(D_1 - 2D_2 + D_3\right) + 2C_1 F_3}{C_1},
 \end{align}
 whose solution
 \begin{equation}
     \phi(t) = \frac{g_0}{\alpha} + \frac{\left(\phi_0 \left(\alpha\beta + \gamma\right) \left(t +  \phi_1\right)\right)^{\frac{\alpha\beta}{\alpha\beta + \gamma}}}{\alpha\beta},
 \end{equation}
-where $\phi_0$ and $\phi_1$ are integration constant. From this
+where $\phi_0$ and $\phi_1$ are integration constant. Using the above solution, it is straightforward to recover the original function
 \begin{equation}
     \psi(t) = \phi_0 \left(\left(\alpha\beta + \gamma\right)\left(\phi_0 t + \phi_0\phi_1\right)\right)^{-\frac{\gamma}{\alpha\beta + \gamma}}.
 \end{equation}
-From the above expression and using the relations in eqs. \eqref{B1_eta}, \eqref{B1_h} and \eqref{B1_g} it is straightforward to find the rest of the
+From the above expression and using the relations in eqs. \eqref{B1_eta}, \eqref{B1_h} and \eqref{B1_g} it is direct to find the rest of the
 affine functions
 \begin{align}
     \eta(t) & = 0,\\
@@ -423,17 +425,17 @@ From eq. \eqref{Feq_B2_1} its possible to find an expression for $\psi(t)$
 \end{equation}
 then, replacing the above algebraic expression in eq.\eqref{Feq_B2_5} leads to a relation between $h(t)$ and $\eta(t)$ as follow
 \begin{equation}
-    h(t) = - \frac{2B_3F_3 \eta}{3B_3 \left(D_1 - 2D_2 + D_3\right) - C_1F_3},
+    h(t) = - \frac{2B_3F_3 \eta}{3B_3 \left(D_1 - 2D_2 + D_3\right) - C_1F_3}.
 \end{equation}
-because of the above relation between the functions, eqs. \eqref{Feq_B2_3} becomes a constraint equation for the coupling constant
+Because of the above relation between the functions, eqs. \eqref{Feq_B2_3} becomes a constraint equation for the coupling constant
 \begin{equation}
     \label{B2_k_constraint_1}
-    \kappa\left(B_3\left(D_1 -2D_2 + D_3\right) - C_1F_3\right) = 0 \to D_1 = \frac{2B_3D_2 - B_3D_3 + C_1F_3}{B_3},
+    \kappa\left(B_3\left(D_1 -2D_2 + D_3\right) - C_1F_3\right) = 0 \to D_1 = \frac{2B_3D_2 - B_3D_3 + C_1F_3}{B_3}.
 \end{equation} 
-the above restriction, turns eq. \eqref{Feq_B2_4} into a first order differential equation for $\eta(t)$
+The constraint for the coupling constants, turns eq. \eqref{Feq_B2_4} into a first order differential equation for $\eta(t)$
 \begin{equation}
     \label{B2_k_constraint_2}
-    \dot{\eta}C_1 \kappa \left(2B_4 - 3B_3\right) + \eta^2 \left(3B_3^2 - 2B_3 B_4 + C_1D_6\right)\kappa = 0
+    \dot{\eta}C_1 \kappa \left(2B_4 - 3B_3\right) + \eta^2 \left(3B_3^2 - 2B_3 B_4 + C_1D_6\right)\kappa = 0,
 \end{equation}
 which can be solved by
 \begin{equation}
@@ -443,8 +445,8 @@ then, the other the $h(t)$ can be written as follow
 \begin{equation}
     h(t) = \frac{B_3\left(3B_3 - 2B_4\right)}{\left(3B_3 - 2B_4\right)\left(tB_3 + \eta_0 C_1\right) + tC_1D_6} 
 \end{equation}
-It is worth to notice the above nontrivial solution it is valid only for the case $\kappa \neq 0$ this can bee seen directly from eqs. \eqref{Feq_B2_1}
-\eqref{B2_k_constraint_1} and \eqref{B2_k_constraint_2}. 
+It is worth to notice the above nontrivial solution it is valid only for the special case where $\kappa \neq 0$, 
+this can bee seen directly from eqs. \eqref{Feq_B2_1}, \eqref{B2_k_constraint_1} and \eqref{B2_k_constraint_2}. 
 
 If one, impose the constraint $\kappa = 0$, then eq.\eqref{Feq_B2_1} tell us that $\psi(t) = 0$ which solves entirely the other
 equations. Therefore, the other functions remain unknown.
@@ -466,8 +468,8 @@ to just one algebraic equation
 \begin{equation}
     \kappa\left(hC_1 + B_3\eta\right) = 0
 \end{equation}
-the above equation can be solved by setting $\kappa = 0$ then the functions $h(t)$ and $\eta(t)$ are undetermined,
- or by the relation $\eta(h) = - h(t)\left(\frac{C_1}{B_3}\right)$, where $h(t)$ is an arbitrary function.
+the above equation can be solved by setting $\kappa = 0$, then, the functions $h(t)$ and $\eta(t)$ are undetermined,
+or by the relation $\eta(h) = - h(t)\left(\frac{C_1}{B_3}\right)$, where $h(t)$ is an arbitrary function.
 
 \section{Analysis of the solutions}
 \label{sec:analysis}
