@@ -3,10 +3,9 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: References.bib
-Warning--I didn't find a database entry for "CastilloCastillo_Felisola_2022_EPJC"
 You've used 56 entries,
             1791 wiz_defined-function locations,
-            826 strings with 12305 characters,
+            824 strings with 12235 characters,
 and the built_in function-call counts, 11495 in all, are:
 = -- 1028
 > -- 378
@@ -45,4 +44,3 @@ warning$ -- 0
 while$ -- 111
 width$ -- 58
 write$ -- 604
-(There was 1 warning)

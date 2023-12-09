@@ -474,8 +474,8 @@ or by the relation $\eta(h) = - h(t)\left(\frac{C_1}{B_3}\right)$, where $h(t)$ 
 \section{Analysis of the solutions}
 \label{sec:analysis}
 
-The only nontrivial solutions can be found in branch \ref{sec:first_branch}, thus, in the following we shall
-focus on analyze that branch. In order to simplify our calculations, without lost of generality, we shall
+The only nontrivial solutions can be found in Sec. \ref{sec:first_branch}, thus, in the following we shall
+focus our analysis in that branch. In order to simplify our calculations, and without any lost of generality, we shall
 set the integrations constant to $\phi_0 \to 1$, $\phi_1 \to 0$ and $g_0 \to 0$. Hence, the affine functions 
 are simplify up to
 \begin{align}
@@ -485,8 +485,8 @@ are simplify up to
 \end{align}
 \subsection{Emergent metrics}
 
-As mentioned in Refs.\cite{Castillo_Felisola_2020,CastilloCastillo_Felisola_2022_EPJC,Castillo_Felisola_2022_Universe} it is possible 
-to obtain emergent metric structures in this purely affine model of gravity. The fist type of metric like tensor comes from the Ricci
+As mentioned in Sec. \ref{sec:PAG} it is possible to obtain emergent metric structures 
+in this purely affine model of gravity. The fist type of metric like tensor comes from the Ricci
 tensor. Using eqs.\eqref{sol_hg} and \eqref{Ricci_tensor} we compute the Ricci tensor
 \begin{align}
     \mathcal{R}_{tt} & = -\frac{3\gamma\left(2\alpha\beta + 3\gamma\right)}{4t^2\left(\alpha\beta + \gamma\right)^2}, \label{R_temporal} \\
@@ -496,7 +496,8 @@ where $\Sigma\left(\alpha,\beta,\gamma\right)$ is defined as
 \begin{equation}
     \Sigma\left(\alpha,\beta,\gamma\right) = -\frac{\alpha^2\beta\left(2\alpha\beta - 3\gamma\right)\left(\alpha\beta + \gamma\right)^{\frac{2\alpha\beta}{\alpha\beta + \gamma}}}{2\left(\alpha\beta +\gamma\right)^2}.
 \end{equation}
-It is worth to recall that the spatial component of the Ricci tensor, plays an analogue role to the scale factor in the FLRW universe, thus
+It is worth to recall that the spatial component of the Ricci tensor plays an analogue role 
+to the scale factor in the FLRW universe, thus
 \begin{equation}
     \Sigma\left(\alpha,\beta,\gamma\right)t^{2\left(\frac{-\gamma}{\alpha\beta + \gamma}\right)} \longleftrightarrow a^2(t).
 \end{equation}
@@ -511,25 +512,26 @@ leading to
 \end{align}
 however, unlike the Ricci tensor, the Poplawski metric like tensor, is a degenerate tensor which can not be inverted.
 
-\subsection{Matter emulation from torsion}
+\subsection{Matter emulation from torsion fields}
 
-Having a well defined affine descendent scale factor coming from the Ricci tensor, defined in eq.\eqref{R_spatial}, we can see that this is a solution \textit{sort-off} like a
-power-law solution, which depends on the coupling constant $\alpha$, $\beta$ and $\gamma$. In order to have a physical meaning, we can demand certain values
-of this parameters to have well known solutions.
+Having a well defined affine descendent scale factor coming from the Ricci tensor, defined in eq.\eqref{R_spatial}, is a power-law 
+solution depending of the coupling constant $\alpha$, $\beta$ and $\gamma$, which are present due to the torsion field. In order 
+to give a physical meaning, we can inquire the value of these parameters that possess a well-known behaviour in G.R., specifically
+in FLRW solutions.
 
-Notice that $\psi(t)$ has a similar form to the energy density expression in the standard model of cosmology
+Note that $\psi(t)$ has a similar form to the energy density expression in the standard model of cosmology
 \begin{equation}
     \psi(t) = \alpha\beta\left(t\left(\alpha\beta + \gamma\right)\right)^{-\frac{\gamma}{\alpha\beta + \gamma}} \longleftrightarrow
-    \rho(t) = \rho_0 a^{-3\left(1 + \omega\right)}
+    \rho(t) = \rho_0 a^{-3\left(1 + \omega\right)},
 \end{equation}
-, meaning we could use the torsion tensor to have different types of affine scales factor. For example, consider the case 
+meaning we could use the torsion tensor to have different types of affine scales factor. For example, consider the case 
 with $\gamma = -\frac{\alpha\beta}{3}$, turns the affine scale factor
 \begin{equation}
     a_f(t) = a_0 t^{1/2},
 \end{equation}
 where $a_0$ its defined as 
 \begin{equation}
-    a_0 = \alpha^2 \hat{\beta}
+    a_0 = \alpha^2 \hat{\beta},
 \end{equation}
 with $\hat{\beta} = -\beta^3$, where $\beta$ must be a negative number in order to have a real affine scale factor, which translate into an inequality
 for the coupling constants
@@ -544,18 +546,16 @@ This type of solution allow us to emulate the radiation era.
 %    \label{Affine_Radiation_plot}
 %\end{figure}
 
-
-
 In the same spirit, considering the case $\gamma = -\frac{2\alpha\beta}{5}$, leads to
 \begin{equation}
     a_f(t) = a_{0}t^{2/3},
 \end{equation}
 where we defiend $a_0$ as 
 \begin{equation}
-    a_0 = \sqrt{-\alpha^{13/3}\beta^{10/3}}\left(\frac{2^{3/2}3^{2/3}}{5^{7/6}}\right)
+    a_0 = \sqrt{-\alpha^{13/3}\beta^{10/3}}\left(\frac{2^{3/2}3^{2/3}}{5^{7/6}}\right),
 \end{equation}    
 which, in order to be real requires that $\beta <0$, which is consistent with constraint 
-written in eq.\eqref{constraint}. This type of solution allow us to emulate a non-relativistic 
+written in eq. \eqref{constraint}. This type of solution allow us to emulate a non-relativistic 
 matter era.
 %\begin{figure}[ht]
 %    \includegraphics[scale=0.5]{Affine_Matter}
@@ -580,8 +580,9 @@ the numerator and denominator of eq. \eqref{acceleration_constraint}
     B1: \alpha\beta & > -2\gamma & \gamma & > 0, \label{B1_a} \\
     B2: \alpha\beta & < -2\gamma & \gamma & < 0. \label{B2_a}
 \end{align}
-Using eq. \eqref{restriction_acceleration} along with eqs.\eqref{B1_a} and \eqref{B2_a} allow us to define to intervals for the
-constant $\alpha\beta$, the former are $\alpha\beta \in \left[-2\gamma, -\frac{3}{2}\gamma\right]$, whereas the latter is given by $\alpha\beta <-2\gamma$. 
+Using eq. \eqref{restriction_acceleration} along with eqs. \eqref{B1_a} and \eqref{B2_a} allow us to define to intervals for the
+constant $\alpha\beta$, the former are $\alpha\beta \in \left[-2\gamma, -\frac{3}{2}\gamma\right]$, 
+whereas the latter is given by $\alpha\beta <-2\gamma$. 
 %\begin{figure}[ht]
 %    \includegraphics[scale=0.5]{Affine_Expansion}
 %    \caption{Accelerated expansion in PAG due to torsion effects}
