@@ -74,24 +74,24 @@ Clifford~M. Will.
 
 \bibitem{Abbott_2016}
 B.~P. Abbott et~al.
-\newblock Gw151226: Observation of gravitational waves from a 22-solar-mass
+\newblock {GW151226}: Observation of gravitational waves from a 22-solar-mass
   binary black hole coalescence.
 \newblock {\em Physical Review Letters}, 116(24), June 2016.
 
 \bibitem{Abbott_2017}
 B.~P. Abbott et~al.
 \newblock Gravitational waves and gamma-rays from a binary neutron star merger:
-  Gw170817 and grb 170817a.
+  {GW170817} and {GRB170817A}.
 \newblock {\em The Astrophysical Journal}, 848(2):L13, October 2017.
 
 \bibitem{PhysRev.160.1113}
 Bryce~S. DeWitt.
-\newblock Quantum theory of gravity i. the canonical theory.
+\newblock Quantum theory of gravity {I}. the canonical theory.
 \newblock {\em Phys. Rev.}, 160:1113--1148, Aug 1967.
 
 \bibitem{PhysRev.162.1195}
 Bryce~S. DeWitt.
-\newblock Quantum theory of gravity ii. the manifestly covariant theory.
+\newblock Quantum theory of gravity {II}. the manifestly covariant theory.
 \newblock {\em Phys. Rev.}, 162:1195--1239, Oct 1967.
 
 \bibitem{PhysRevD.10.401}
@@ -105,7 +105,7 @@ S.~Deser and P.~van Nieuwenhuizen.
 \newblock {\em Phys. Rev. D}, 10:411--420, Jul 1974.
 
 \bibitem{Rotation_Curve}
-Vera~C. {Rubin} and Jr. {Ford}, W.~Kent.
+Vera~C. {Rubin} and William~K. {Ford Jr.}
 \newblock {Rotation of the Andromeda Nebula from a Spectroscopic Survey of
   Emission Regions}.
 \newblock {\em The Astrophysical Journal}, 159:379, February 1970.
