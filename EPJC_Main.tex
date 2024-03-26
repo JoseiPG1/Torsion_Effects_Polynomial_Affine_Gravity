@@ -260,22 +260,22 @@ Varying the action (\ref{PAG_action}) and using the ansatz in Eqs. \eqref{G_ansa
 
 \begin{equation}
     \label{Feq_2}
-    \left(B_3\eta\psi -2B_4\eta\psi + C_1\left(\dot{\psi} - 2h\psi\right)\right)g = 0,
+    (B_3\eta\psi -2B_4\eta\psi + C_1(\dot{\psi} - 2h\psi))g = 0,
 \end{equation}
 
 \begin{eqnarray}
     \label{Feq_3}
-    \left(B_3 + 2B_4\right)\eta g\psi &+& 2C_1\left(\kappa\psi + 4gh\psi - g\dot{\psi} - \psi\dot{g}\right) \nonumber \\ &+& 2\psi^3\left(2D_2 - D_1 - D_3\right) = 0,
+    \left(B_3 + 2B_4\right)\eta g\psi &+& 2C_1(\kappa\psi + 4gh\psi - g\dot{\psi} - \psi\dot{g}) \nonumber \\ &-& 2\psi^3(D_1 - 2D_2 + D_3) = 0,
 \end{eqnarray}
 
 \begin{eqnarray}
     \label{Feq_4}
-    B_3\left(\eta(h\psi -\dot{\psi}\right. &-&\left. \psi\dot{\eta}\right) - 2B_4\left(\eta\left(-h\psi - \dot{\psi}\right) - \psi\dot{\eta}\right)   \\ &+& C_1\left(4h^2\psi + 2\psi\dot{h} -\ddot{\psi}\right) + D_6\eta^2\psi = 0 \ ,\nonumber 
+    B_3(\eta(h\psi -\dot{\psi}) &-&\psi\dot{\eta}) - 2B_4(\eta(-h\psi - \dot{\psi}) - \psi\dot{\eta})   \\ &+& C_1(4h^2\psi + 2\psi\dot{h} -\ddot{\psi}) + D_6\eta^2\psi = 0 \ ,\nonumber 
 \end{eqnarray}
 
 \begin{eqnarray}
     \label{Feq_5}
-    B_3(\dot{g} &+& gh + 2\kappa)\eta - 2B_4\left(\dot{g} - gh\right)\eta \nonumber \\ &+& C_1(2\kappa h + 4gh^2  + 2g\dot{h}- \ddot{g}) \nonumber \\ &+& 6h\psi^2\left(2D_2 - D_1 - D_3\right) \nonumber \\ &+& D_6 \eta^2 g - 6F_3\eta\psi^2 = 0
+    B_3(\dot{g} &+& gh + 2\kappa)\eta - 2B_4\left(\dot{g} - gh\right)\eta \nonumber \\ &+& C_1(2\kappa h + 4gh^2  + 2g\dot{h}- \ddot{g}) \nonumber \\ &-& 6h\psi^2\left(D_1 - 2D_2 + D_3\right) \nonumber \\ &+& D_6 \eta^2 g - 6F_3\eta\psi^2 = 0
 \end{eqnarray}
 where $\mathcal{A}$ and $\mathcal{B}$ yield only one equation each, namely,  Eq. \eqref{Feq_1} and Eq. \eqref{Feq_5}, respectively, 
 while the remaining three come from $\Gamma$. Notice that we have four unknown functions 
@@ -308,7 +308,7 @@ The first branch is the most interesting one in terms of the richness of solutio
 \subsection{First branch}
 \label{sec:first_branch}
 
-This branch contains the most general case, with the field equations being
+This branch contains the most general case subject to $\mathcal{F}(g,h,\psi,\eta) = 0$ and $\mathcal{G}(h,\psi,\eta) = 0$, with the field equations being
 \begin{dmath}
     \label{Feq_B1_1}
     B_3\left(\dot{g} + gh + 2\kappa\right) - 2B_4\left(\dot{g} - gh\right) + 2D_6\eta g - 2F_3\psi^2 = 0,
@@ -391,7 +391,7 @@ g(t)  = \phi_0 \left(\left(\alpha\beta + \gamma\right)\phi_0 \left(t + \phi_1\ri
 
 \subsection{Second branch \textcolor{red}{REVISAR FORMULAS}}
 
-The second branch imposes the $g(t) = 0$ restriction which leads to the following field equations:
+The second branch imposes $\mathcal{F}(g,h,\psi,\eta)  = 0$ and $g(t) = 0$ restrictions which leads to the following field equations:
 \begin{dmath}
     \label{Feq_B2_1}
     \kappa B_3 \psi - F_3\psi^3= 0,
@@ -402,7 +402,7 @@ The second branch imposes the $g(t) = 0$ restriction which leads to the followin
 \end{dmath}
 \begin{eqnarray}
     \label{Feq_B2_4}
-    B_3\left(\eta(h\psi -\dot{\psi}\right. &-&\left. \psi\dot{\eta}\right) - 2B_4\left(\eta\left(-h\psi - \dot{\psi}\right) - \psi\dot{\eta}\right)   \\ &+& C_1\left(4h^2\psi + 2\psi\dot{h} -\ddot{\psi}\right) + D_6\eta^2\psi = 0 \ ,\nonumber 
+    B_3(\eta(h\psi -\dot{\psi}) &-&\psi\dot{\eta}) - 2B_4(\eta(-h\psi - \dot{\psi}) - \psi\dot{\eta})   \\ &+& C_1(4h^2\psi + 2\psi\dot{h} -\ddot{\psi}) + D_6\eta^2\psi = 0 \ ,\nonumber 
 \end{eqnarray}
 \begin{eqnarray}
     \label{Feq_B2_5}
@@ -412,36 +412,35 @@ where $D = D_1 - 2D_2 + D_3$.
 
 From Eq. \eqref{Feq_B2_1} it is possible to find an expression for $\psi(t)$ in the form
 \begin{equation}
+	\label{B2_Psi}
     \psi(t) = \pm \sqrt{\frac{\kappa B_3}{F_3}} .
 \end{equation}
-Replacing the above algebraic expression in Eq.\eqref{Feq_B2_5} leads to a relation between $h(t)$ and $\eta(t)$ of the form
+Using the compatibility condition from Eq. \eqref{Feq_B2_3}, leads to a relation between
+the coupling constant
 \begin{equation}
-    h(t) = - \frac{2B_3F_3 \eta}{3B_3 \left(D_1 - 2D_2 + D_3\right) - C_1F_3}.
+ C_1 F_3 = D B_3.
 \end{equation}
-Because of the above relation, Eq. \eqref{Feq_B2_3} becomes a constraint equation for the coupling constants of the theory,
-which can be solved for the coupling constant $D_1$ as\footnote{This solution is only valid for $\kappa \neq 0$.}
+Taking the algebraic expression for $C_1$ and replacing Eq. \eqref{B2_Psi} in Eq.\eqref{Feq_B2_5} leads to a relation between $h(t)$ and $\eta(t)$ of the form
 \begin{equation}
-    \label{B2_k_constraint_1}
-	 D_1 = \frac{2B_3D_2 - B_3D_3 + C_1F_3}{B_3}.
-\end{equation} 
-The constraint for the coupling constant turns Eq. \eqref{Feq_B2_4} into a first order differential equation for $\eta(t)$
-\begin{equation}
-    \label{B2_k_constraint_2}
-    \dot{\eta}C_1 \kappa \left(2B_4 - 3B_3\right) + \eta^2 \left(3B_3^2 - 2B_3 B_4 + C_1D_6\right)\kappa = 0,
+    h(t) = - \eta(t)\frac{F_3}{D}
 \end{equation}
-which can be solved by
+Combining the above result along with Eq. \eqref{B2_Psi} turns Eq. \eqref{Feq_B2_4} into a first order differential equation of the form
 \begin{equation}
-    \eta(t) = \frac{C_1\left(2B_4 - 3B_3\right)}{\left(3B_3 - 2B_4\right)\left(tB_3 + \eta_0 C_1\right) + tC_1D_6},
+ \dot{eta} - \eta^2\left(\frac{D_6}{3B_3 - 2B_4} + \frac{F_3}{D}\right) = 0
 \end{equation}
-then, the other the $h(t)$ can be written as follow
+whose solution is
 \begin{equation}
-    h(t) = \frac{B_3\left(3B_3 - 2B_4\right)}{\left(3B_3 - 2B_4\right)\left(tB_3 + \eta_0 C_1\right) + tC_1D_6} 
+    \eta(t) = \frac{D\left(2B_4 - 3B_3\right)}{\left(D \eta_0 + tF_3\right)\left(3B_3 - 2B_4\right) + DD_6 t}.
 \end{equation}
-It is important to notice that the above solution is valid only for the special case where $\kappa \neq 0$.
-This can bee seen directly from Eqs. \eqref{Feq_B2_1}, \eqref{B2_k_constraint_1} and \eqref{B2_k_constraint_2}. 
+Then, it is straightforward to obtain $h(t)$ 
+\begin{equation}
+    h(t) = \frac{F_3\left(2B_4 - 3B_3\right)}{\left(D \eta_0 + tF_3\right)\left(3B_3 - 2B_4\right) + DD_6 t}
+\end{equation}
+It is worth to remark that the above solutions is only valid for the special case 
+where $\kappa \neq 0$, this can be seen directly from Eqs. \eqref{Feq_B2_1} and \eqref{Feq_B2_3}.
 
 If we impose the constraint $\kappa = 0$, then Eq. \eqref{Feq_B2_1} tells us that $\psi(t) = 0$ solves entirely the other
-equations. Therefore, the other functions remain unknown.
+equations, and the remaining functions $h(t)$ and $\eta(t)$ are unknown.
 
 \subsection{Third branch}
 
