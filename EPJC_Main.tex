@@ -343,7 +343,7 @@ Replacing the above expression for $\eta(t)$ into Eq. \eqref{Feq_B1_4}, leads to
 \end{align}
 Using $h_I(t)$, then Eq. \eqref{Feq_B1_3} turns into
 \begin{equation}
-    -2\left(D_1 - 2D_2 + D_3\right)\psi^3 + 2C_1\left(\psi\left(\kappa - \dot{g}\right) + g\dot{\psi}\right) = 0,
+    -\left(D_1 - 2D_2 + D_3\right)\psi^3 + C_1\left(\psi\left(\kappa - \dot{g}\right) + g\dot{\psi}\right) = 0,
 \end{equation}
 which allows us to solve $g(t)$ in terms of the $\psi(t)$ 
 \begin{equation}
@@ -381,15 +381,16 @@ affine functions
 \eta(t)  = 0
 \end{dmath}
 \begin{dmath}
-h(t) = - \frac{\gamma}{2\left(\alpha\beta + \gamma\right)\left(t + \phi_1\right)}
+h(t) =  -\frac{\gamma}{2\left(\alpha\beta + \gamma\right)\left(t - t_0\right)}
 \end{dmath}
-\begin{multline}
-g(t)  = \phi_0 \left(\left(\alpha\beta + \gamma\right)\phi_0 \left(t + \phi_1\right)\right)^{-\frac{\gamma}{\alpha\beta + \gamma}} \\
-\left(g_0 - \frac{\left(\left(\alpha\beta + \gamma\right)\phi_0\left(t + \phi_1\right)\right)^{\frac{\alpha\beta}{\alpha\beta + \gamma}}}{\beta}\right)
-\end{multline}
-\textcolor{red}{HAY QUE ACTUALIZAR ESTAS FORMULAS. \\ HAY QUE MENCIONAR QUE PASA CON LA SOLUCION ASOCIADA A $h_{II}$}.
+\begin{dmath}
+g(t) = g_1 \left(t - t_0\right)^{-\frac{\gamma}{\alpha\beta + \gamma}} - \left(t - t_0\right)\alpha \left(\frac{\alpha\beta + \gamma}{\alpha\beta + 2 \gamma}\right) 
+\end{dmath}
 
-\subsection{Second branch \textcolor{red}{REVISAR FORMULAS}}
+Finally, from Eq. \eqref{B1_h} the second branch of $h(t)$ leads to a similar first order integro-differential equation 
+which can not be solved analytically, which is why, for the moment we will exclude in this paper.
+
+\subsection{Second branch}
 
 The second branch imposes $\mathcal{F}(g,h,\psi,\eta)  = 0$ and $g(t) = 0$ restrictions which leads to the following field equations:
 \begin{dmath}
@@ -444,7 +445,7 @@ equations, and the remaining functions $h(t)$ and $\eta(t)$ are unknown.
 
 \subsection{Third branch}
 
-The constraint $\psi(t)=0$ imposes a strong restriction to the system of differential equations, which boils down to 
+The constraint $\mathcal{G}(h,\psi,\eta) = 0$ and $\psi(t)=0$ imposes a strong restriction to the system of differential equations, which boils down to 
 \begin{dmath}
     g\eta^2D_6 + 2B_4\eta \left(gh - \dot{g}\right) + B_3\eta\left(2\kappa + gh + \dot{g}\right) + 
     C_1\left(2h\left(\kappa + 2gh\right) + 2g\dot{h} - \ddot{g}\right) = 0.
