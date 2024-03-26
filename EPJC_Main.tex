@@ -384,13 +384,15 @@ affine functions
 h(t) =  -\frac{\gamma}{2\left(\alpha\beta + \gamma\right)\left(t - t_0\right)}
 \end{dmath}
 \begin{dmath}
-g(t) = g_1 \left(t - t_0\right)^{-\frac{\gamma}{\alpha\beta + \gamma}} - \left(t - t_0\right)\alpha \left(\frac{\alpha\beta + \gamma}{\alpha\beta + 2 \gamma}\right) 
+g(t) =\left(\frac{(\alpha\beta + \gamma)g_1 - \alpha^2\beta\lambda^2 \left(t - t_0\right)^{\frac{\alpha\beta}{\alpha\beta + \gamma}}}{\alpha\beta + \gamma}\right)\left(t - t_0\right)^{-\frac{\gamma}{\alpha\beta + \gamma}}
 \end{dmath}
+where $g_1$ is an integration constant.
 
 Finally, from Eq. \eqref{B1_h} the second branch of $h(t)$ leads to a similar first order integro-differential equation 
 which can not be solved analytically, which is why, for the moment we will exclude in this paper.
 
 \subsection{Second branch}
+\label{sec:second_branch}
 
 The second branch imposes $\mathcal{F}(g,h,\psi,\eta)  = 0$ and $g(t) = 0$ restrictions which leads to the following field equations:
 \begin{dmath}
@@ -427,7 +429,7 @@ Taking the algebraic expression for $C_1$ and replacing Eq. \eqref{B2_Psi} in Eq
 \end{equation}
 Combining the above result along with Eq. \eqref{B2_Psi} turns Eq. \eqref{Feq_B2_4} into a first order differential equation of the form
 \begin{equation}
- \dot{eta} - \eta^2\left(\frac{D_6}{3B_3 - 2B_4} + \frac{F_3}{D}\right) = 0
+ \dot{\eta} - \eta^2\left(\frac{D_6}{3B_3 - 2B_4} + \frac{F_3}{D}\right) = 0
 \end{equation}
 whose solution is
 \begin{equation}
@@ -466,25 +468,28 @@ or by the relation $\eta(h) = - h(t)\left(\frac{C_1}{B_3}\right)$, where $h(t)$ 
 \section{Analysis of the solutions}
 \label{sec:analysis}
 
-The only nontrivial solutions can be found in Sec. \ref{sec:first_branch}, thus, in the following we shall
-focus our analysis in that branch. In order to simplify our calculations, and without any loss of generality, we shall
-set the integration constants to $\phi_0 \to 1$, $\phi_1 \to 0$ and $g_0 \to 0$. Hence, the affine functions 
+There are only two nontrivial and analytic solutions to the field equations, which were found
+in Sec. \ref{sec:first_branch} and \ref{sec:second_branch}. Nonetheless, 
+we are going to strict ourselves to analyses only the former branch.  The reason for this, will be
+clear in the next subsection.
+
+In order to simplify our calculations, we shall set up the integration constants 
+to $t_0 \to 0$, $\lambda \to 1$ and $g_1 \to 0$. Hence, the affine functions 
 are simplify up to
 \begin{align}
-	h(t) & = \frac{\gamma}{2t\left(\alpha\beta + \gamma\right)}, \label{sol_h}\\
-	g(t) & = -\alpha^2\beta \left(t\left(\alpha\beta + \gamma\right)\right)^{\frac{2\alpha\beta}{\alpha\beta + \gamma} -1}, \label{sol_g} \\
-	\psi(t) & = \alpha\beta\left(t\left(\alpha\beta + \gamma\right)\right)^{-\frac{\gamma}{\alpha\beta + \gamma}},  \label{sol_p}\\ 
+	h(t) & = -\frac{\gamma}{2t\left(\alpha\beta + \gamma\right)}, \label{sol_h}\\
+	g(t) & = -\left(\frac{\alpha^2\beta}{\alpha\beta + \gamma}\right)t^{\frac{\alpha\beta - \gamma}{\alpha\beta + \gamma}}, \label{sol_g} \\
+	\psi(t) & =\left(\frac{\alpha\beta}{\alpha\beta + \gamma}\right)t^{\frac{-\gamma}{\alpha\beta + \gamma}},  \label{sol_p}\\ 
 	\eta(t) & = 0, \label{sol_n}
 \end{align}
-where $h(t)$ and $g(t)$ define the symmetric part of $\hat{\Gamma}$, whereas
-$\psi(t)$ and $\eta(t)$ define the anti symmetric part.
+and therefore, the behavior of the functions is reduced to the numerical values of the
+constants $\alpha$, $\beta$ and $\gamma$.
+
 
 \subsection{Emergent metrics}
 
-Up to this point we have found so far cosmological solutions with non trivial torsion
-effects, allowing us to define completely the affine connection, and, consequently
-the notion of parallelism. However, the physical implications of the solutions can be
-found through the descendant metric structures coming from the irreducible fields 
+The physical implications of the solutions can be found through the descendant 
+metric structures coming from the irreducible fields 
 of the affine connection in the space of solutions to the field equations. 
 For starts, lets recall the definition of a metric tensor
 
@@ -527,24 +532,29 @@ and the Poplawski's metric is computed using Eqs. \eqref{B_ansatz} and \eqref{A_
 In order to use the Ricci tensor $\mathcal{R}_{\mu\nu}$ or the Poplawski $\mathcal{P}_{\mu\nu}$ as an
 emergent metric tensor, is necessary that the tensor is well defined, meaning, it can be invertible. If the
 tensors are well behaved, then the factors $\left(\dot{g} + gh + 2\kappa\right)$ or $\left(-2\psi^2\right)$ 
-could play an analogue role to the scale factor $a^2(t)$ from FLRW.
+could play an analogue role to the scale factor $a^2(t)$ from FLRW, moreover, the factor 
+$\dot{h} + h^2$ or $\eta^2$ could be associated to the lapse function. Therefore, it is crucial
+to have non vanishing affine functions, and also, that the affine functions must be time
+dependent, this is the reason on why we exlcuded the second branch on this analysis, that is
+because it has a vanishing $g(t)$ and a constant $\psi(t)$ function, providing a degenerate
+Ricci and Poplawski effective tensor.
 
 Using Eqs. \eqref{sol_h}, \eqref{sol_g} and \eqref{Ricci_tensor} we compute the components 
 of the Ricci tensor
 \begin{align}
     \mathcal{R}_{tt} & = -\frac{3\gamma\left(2\alpha\beta + 3\gamma\right)}{4t^2\left(\alpha\beta + \gamma\right)^2}, \label{R_temporal} \\
-    \mathcal{R}_{rr} & = \Sigma\left(\alpha,\beta,\gamma\right)t^{2\left(\frac{-\gamma}{\alpha\beta + \gamma}\right)} \label{R_spatial},
+    \mathcal{R}_{rr} & = \Sigma\left(\alpha,\beta,\gamma\right)t^{\frac{-2\gamma}{\alpha\beta + \gamma}} \label{R_spatial},
 \end{align}
 where the constant $\Sigma\left(\alpha,\beta,\gamma\right)$ is defined as
 \begin{equation}
-    \Sigma\left(\alpha,\beta,\gamma\right) = -\frac{\alpha^2\beta\left(2\alpha\beta - 3\gamma\right)\left(\alpha\beta + \gamma\right)^{\frac{2\alpha\beta}{\alpha\beta + \gamma}}}{2\left(\alpha\beta +\gamma\right)^2}.
+    \Sigma\left(\alpha,\beta,\gamma\right) = \frac{\alpha^2\beta\left( 3\gamma - 2\alpha\beta\right)}{2\left(\alpha\beta +\gamma\right)^2}.
 \end{equation}
 Notice that if $\alpha\beta + \gamma \neq 0$ and neither constant $\alpha$, $\beta$
 and $\gamma$ are trivial, then Ricci tensor can acts as a metric tensor. In that 
 particular case, the spatial part of the ricci tensor plays an analogue role to 
 the scale factor in the FLRW universe, thus
 \begin{equation}
-    \Sigma\left(\alpha,\beta,\gamma\right)t^{2\left(\frac{-\gamma}{\alpha\beta + \gamma}\right)} \longleftrightarrow a^2(t).
+    \Sigma\left(\alpha,\beta,\gamma\right)t^{\frac{-2\gamma}{\alpha\beta + \gamma}} \longleftrightarrow a^2(t).
 \end{equation}
 Therefore, we can use the Ricci tensor to define the notion of distance, as 
 long as is well behaved (nondegenerate). For this metric, unlike the one in FLRW 
@@ -589,13 +599,13 @@ With the relation $\gamma = -\frac{\alpha\beta}{3}$, the affine scale factor tur
 \end{equation}
 where $a_0$ is defined as 
 \begin{equation}
-    a_0 = \alpha^2 \hat{\beta},
+    a_0 = \sqrt{-\frac{27\alpha}{8}},
 \end{equation}
-with $\hat{\beta} = -\beta^3$, where $\beta$ must be a negative number in order to have 
-a real affine scale factor, which translate into an inequality for the coupling constants
+where $\alpha$ must be a negative number in order to have 
+a positive and real affine scale factor, which translate into an inequality for the coupling constants
 \begin{equation}
     \label{constraint}
-    3B_3 < 2B_4.
+    \frac{D_1 - 2D_2 + D_3}{C_1} < 0
 \end{equation}
 This type of solution allow us to emulate the radiation era. 
 
@@ -605,32 +615,28 @@ In the same spirit, considering the case $\gamma = -\frac{2\alpha\beta}{5}$, lea
 \end{equation}
 where we defiend $a_0$ as 
 \begin{equation}
-    a_0 = \sqrt{-\alpha^{13/3}\beta^{10/3}}\left(\frac{2^{3/2}3^{2/3}}{5^{7/6}}\right),
+    a_0 = \sqrt{-\frac{40\alpha}{9}},
 \end{equation}    
-which, in order to be real requires that $\beta <0$, which is consistent with constraint 
+which, requires that $\alpha < 0$, which is consistent with constraint 
 written in Eq. \eqref{constraint}. This type of solution allow us to emulate a non-relativistic 
 matter era.
 
 If we want to have an accelerated expansion due to torsion effects, we need to consider
 \begin{equation}
     \label{acceleration_constraint}
-    \ddot{a}_f > 0 \to \frac{\gamma\left(\alpha\beta + 2\gamma\right)}{\left(\alpha\beta + \gamma\right)^2}t^{\frac{\alpha\beta}{\alpha\beta + \gamma} - 3} > 0.
+    \ddot{a}_f > 0 \to \frac{\alpha^2\beta\gamma(\alpha\beta + \gamma)(3\gamma - 2\alpha\beta)}{2(\alpha\beta + \gamma)^4}t^{\frac{\alpha\beta}{\alpha\beta + \gamma} - 3}  > 0.
 \end{equation}
 the above condition, ensures a positive acceleration. In order to have a steady growth acceleration, it is required that 
 \begin{equation}
     \label{restriction_acceleration}
     \alpha\beta < -\frac{3}{2}\gamma,
 \end{equation}
-this conditions ensures that the time evolution will be defined positive. Additionally, we have two branches coming from 
-the numerator and denominator of Eq. \eqref{acceleration_constraint}
-\begin{align}
-    B1: \alpha\beta & > -2\gamma & \gamma & > 0, \label{B1_a} \\
-    B2: \alpha\beta & < -2\gamma & \gamma & < 0. \label{B2_a}
-\end{align}
-Using Eq. \eqref{restriction_acceleration} along with Eqs. \eqref{B1_a} and \eqref{B2_a} allow us to define to intervals for the
-constant $\alpha\beta$, for the first branch $B1$, we have $\alpha\beta \in \left[-2\gamma, -\frac{3}{2}\gamma\right]$, 
-whereas for the second branch $B2$ we get $\alpha\beta <-2\gamma$. 
-
+this conditions ensures that the time evolution will be defined positive. Additionally, we need to ensure
+that the numerator in Eq. \eqref{acceleration_constraint} must be positive, from which we distinguish
+two types of conditions: $\gamma > 0$ and $\beta > 0$, and therefore $\alpha < 0$, which is
+consistent with the above two cosmological epochs, or $\gamma < 0$ and $\beta < 0$, leading to
+$\alpha > 0$, which is inconsistent with the above description.
+.
 \section{Final remarks}
 \label{sec:final_remarks}
 
